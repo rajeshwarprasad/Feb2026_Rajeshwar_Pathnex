@@ -24,3 +24,6 @@ sudo groupadd tester
 sudo gpasswd -M test1,test2 tester
 
 sudo cat /etc/group
+
+umask 022 
+umask only support in same folder.
