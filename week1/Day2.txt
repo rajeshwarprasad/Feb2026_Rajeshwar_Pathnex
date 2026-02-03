@@ -27,3 +27,9 @@ sudo cat /etc/group
 
 umask 022 
 umask only support in same folder.
+
+gzip to commpress the file.
+
+gzip filename.txt
+
+gzip -d filenam.txt.gz  to uncompress the file.
