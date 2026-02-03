@@ -1,0 +1,26 @@
+sudo useradd -m userid
+
+add shell on user creation.
+sudo useradd -m userid -s /bin/bash
+
+sudo userdel userid
+
+Change password
+sudo passwd userid
+
+cat /etc/passwd
+
+cat /etc/group
+
+For giving admin rights
+sudo visudo
+
+sudo groupadd groupid
+sudo useradd -m test1
+sudo useradd -m	test2
+
+sudo groupadd tester
+
+sudo gpasswd -M test1,test2 tester
+
+sudo cat /etc/group
